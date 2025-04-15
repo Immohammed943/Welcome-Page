@@ -1,0 +1,36 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.navbar{
+    height: 5rem;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    text-align: left;
+    font-size: 4rem;
+}
+
+ .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 30rem;
+    background-color: whitesmoke;
+    margin: 9rem 45rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 25) 0px 5px 15px;
+ }
+
+ .main-container h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #050101;
+    font-weight: bold;
+    margin-bottom: 35rem;
+ }
